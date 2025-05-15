@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cardapio>
+    <prato id="01">
+        <nome>Arroz, Feijão, Bife e Batata Frita</nome>
+        <descricao>Clássico do dia a dia brasileiro, simples e saboroso.</descricao>
+        <ingredientes>Arroz branco, Feijão carioca, Bife de alcatra grelhado, Batata frita, Alho, Sal, Óleo</ingredientes>
+        <preco>22.00</preco>
+        <calorias>750</calorias>
+        <tempo_preparo>25</tempo_preparo>
+    </prato>
+  
+    <prato id="02">
+        <nome>Macarrão ao Molho de Tomate com Queijo Ralado</nome>
+        <descricao>Prato rápido e prático, com molho caseiro e finalizado com queijo.</descricao>
+        <ingredientes>Macarrão espaguete, Molho de tomate caseiro, Alho, Cebola, Azeite, Queijo parmesão ralado, Sal, Orégano</ingredientes>
+        <preco>17.00</preco>
+        <calorias>500</calorias>
+        <tempo_preparo>20</tempo_preparo>
+    </prato>
+  
+    <prato id="03">
+        <nome>Frango Ensopado com Legumes e Arroz</nome>
+        <descricao>Receita caseira e nutritiva, com frango cozido em molho leve e legumes.</descricao>
+        <ingredientes>Peito de frango em cubos, Batata, Cenoura, Vagem, Arroz branco, Tomate, Alho, Cebola, Óleo, Sal, Cheiro-verde</ingredientes>
+        <preco>20.00</preco>
+        <calorias>600</calorias>
+        <tempo_preparo>30</tempo_preparo>
+    </prato>
+  
+    <prato id="04">
+        <nome>Omelete Simples com Arroz e Salada</nome>
+        <descricao>Refeição leve e econômica, ideal para o almoço ou jantar.</descricao>
+        <ingredientes>Ovos, Cebola picada, Tomate em cubos, Arroz branco, Alface, Tomate, Sal, Óleo</ingredientes>
+        <preco>16.00</preco>
+        <calorias>450</calorias>
+        <tempo_preparo>15</tempo_preparo>
+    </prato>
+
+    <prato id="05">
+        <nome>Panqueca de Carne Moída com Arroz</nome>
+        <descricao>Panquecas recheadas com carne moída ao molho de tomate, acompanhadas de arroz branco.</descricao>
+        <ingredientes>Panqueca, Carne moída, Molho de tomate, Cebola, Alho, Óleo, Sal, Arroz branco, Queijo ralado</ingredientes>
+        <preco>19.00</preco>
+        <calorias>580</calorias>
+        <tempo_preparo>30</tempo_preparo>
+    </prato>
+</cardapio>
