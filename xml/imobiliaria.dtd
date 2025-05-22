@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imobiliaria [
+  <!ELEMENT imobiliaria (imovel+)>
+
+  <!ELEMENT imovel (descricao, proprietario, endereco, caracteristicas, valor)>
+
+  <!ELEMENT descricao (#PCDATA)>
+  
+  <!ELEMENT proprietario (nome, (email | telefone)+)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT email (#PCDATA)>
+  <!ELEMENT telefone (#PCDATA)>
+
+  <!ELEMENT endereco (rua, bairro, cidade, numero?)>
+  <!ELEMENT rua (#PCDATA)>
+  <!ELEMENT bairro (#PCDATA)>
+  <!ELEMENT cidade (#PCDATA)>
+  <!ELEMENT numero (#PCDATA)>
+
+  <!ELEMENT caracteristicas (tamanho, numQuartos, numBanheiros)>
+  <!ELEMENT tamanho (#PCDATA)>
+  <!ELEMENT numQuartos (#PCDATA)>
+  <!ELEMENT numBanheiros (#PCDATA)>
+
+  <!ELEMENT valor (#PCDATA)>
+]>
+
+<imobiliaria>
+  <imovel>
+    <descricao>Apartamento com vista para o mar</descricao>
+    <proprietario>
+      <nome>João Silva</nome>
+      <telefone>22 2222-2222</telefone>
+      <email>joao.silva@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Avenida fim do mundo</rua>
+      <bairro>Ovo frito</bairro>
+      <cidade>algumaCidade</cidade>
+      <numero>1212</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>200</tamanho>
+      <numQuartos>3</numQuartos>
+      <numBanheiros>2</numBanheiros>
+    </caracteristicas>
+    <valor>1200000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Casa grande com jardim</descricao>
+    <proprietario>
+      <nome>Maria José</nome>
+      <telefone>11 1111-1111</telefone>
+    </proprietario>
+    <endereco>
+      <rua>Rua feia</rua>
+      <bairro>Feio</bairro>
+      <cidade>São Peba</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>250</tamanho>
+      <numQuartos>4</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>2000000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Kitnet peba véi</descricao>
+    <proprietario>
+      <nome>Carlin de Souza</nome>
+      <email>carlos@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua Principal</rua>
+      <bairro>Centro</bairro>
+      <cidade>Belo lugar</cidade>
+      <numero>45</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>40</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>250000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Casa grande com piscina</descricao>
+    <proprietario>
+      <nome>Ana Pereira</nome>
+      <telefone>33 3333-3333</telefone>
+      <email>ana@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua do Plameiras</rua>
+      <bairro>Centro</bairro>
+      <cidade>Juiz de Fora</cidade>
+      <numero>789</numero>
+    </endereco>
+    <caracteristicas>
+      <tamanho>400</tamanho>
+      <numQuartos>5</numQuartos>
+      <numBanheiros>3</numBanheiros>
+    </caracteristicas>
+    <valor>8500000</valor>
+  </imovel>
+
+  <imovel>
+    <descricao>Apartamento pequeno</descricao>
+    <proprietario>
+      <nome>Fernanda</nome>
+      <email>fernanda@email.com</email>
+    </proprietario>
+    <endereco>
+      <rua>Rua fique pobre</rua>
+      <bairro>Pobreza</bairro>
+      <cidade>Pobres</cidade>
+    </endereco>
+    <caracteristicas>
+      <tamanho>45</tamanho>
+      <numQuartos>1</numQuartos>
+      <numBanheiros>1</numBanheiros>
+    </caracteristicas>
+    <valor>320000</valor>
+  </imovel>
+</imobiliaria>
