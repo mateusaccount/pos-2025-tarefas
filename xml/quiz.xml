@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quiz versao="1.0">
+    <disciplina>Matemática</disciplina>
+    <professor>
+        <nome>Maria Silva</nome>
+        <matrícula>123456</matrícula>
+    </professor>
+    <turma>3º Ano B</turma>
+    <data>2025-05-29</data>
+    <questões>
+        <questão>
+            <enunciado>Qual é o valor de 2 + 2?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">3</alternativa>
+                <alternativa correta="sim">4</alternativa>
+                <alternativa correta="nao">5</alternativa>
+                <alternativa correta="nao">22</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é a capital da França?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Londres</alternativa>
+                <alternativa correta="sim">Paris</alternativa>
+                <alternativa correta="nao">Berlim</alternativa>
+                <alternativa correta="nao">Roma</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Qual é o resultado de 5 x 6?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">11</alternativa>
+                <alternativa correta="sim">30</alternativa>
+                <alternativa correta="nao">56</alternativa>
+                <alternativa correta="nao">25</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>Quem escreveu 'Dom Casmurro'?</enunciado>
+            <pontuação>2</pontuação>
+            <alternativas>
+                <alternativa correta="sim">Machado de Assis</alternativa>
+                <alternativa correta="nao">José de Alencar</alternativa>
+                <alternativa correta="nao">Carlos Drummond de Andrade</alternativa>
+                <alternativa correta="nao">Clarice Lispector</alternativa>
+            </alternativas>
+        </questão>
+        <questão>
+            <enunciado>O que é H<sub>2</sub>O?</enunciado>
+            <pontuação>1</pontuação>
+            <alternativas>
+                <alternativa correta="nao">Ácido sulfúrico</alternativa>
+                <alternativa correta="sim">Água</alternativa>
+                <alternativa correta="nao">Oxigênio</alternativa>
+                <alternativa correta="nao">Gás carbônico</alternativa>
+            </alternativas>
+        </questão>
+    </questões>
+</quiz>
