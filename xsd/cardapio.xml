@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
+<cardapio>
+    <prato id="p1">
+        <nome>Arroz, Feijão, Bife e Batata Frita</nome>
+        <descricao>Clássico do dia a dia brasileiro, simples e saboroso.</descricao>
+        <ingredientes>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Feijão carioca</ingrediente>
+            <ingrediente>Bife de alcatra grelhado</ingrediente>
+            <ingrediente>Batata frita</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Óleo</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 22.00</preco>
+        <calorias>750</calorias>
+        <tempo_preparo>25</tempo_preparo>
+    </prato>
+
+    <prato id="p2">
+        <nome>Macarrão ao Molho de Tomate com Queijo Ralado</nome>
+        <descricao>Prato rápido e prático, com molho caseiro e finalizado com queijo.</descricao>
+        <ingredientes>
+            <ingrediente>Macarrão espaguete</ingrediente>
+            <ingrediente>Molho de tomate caseiro</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Azeite</ingrediente>
+            <ingrediente>Queijo parmesão ralado</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Orégano</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 17.00</preco>
+        <calorias>500</calorias>
+        <tempo_preparo>20</tempo_preparo>
+    </prato>
+
+    <prato id="p3">
+        <nome>Frango Ensopado com Legumes e Arroz</nome>
+        <descricao>Receita caseira e nutritiva, com frango cozido em molho leve e legumes.</descricao>
+        <ingredientes>
+            <ingrediente>Peito de frango em cubos</ingrediente>
+            <ingrediente>Batata</ingrediente>
+            <ingrediente>Cenoura</ingrediente>
+            <ingrediente>Vagem</ingrediente>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Óleo</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Cheiro-verde</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 20.00</preco>
+        <calorias>600</calorias>
+        <tempo_preparo>30</tempo_preparo>
+    </prato>
+
+    <prato id="p4">
+        <nome>Omelete Simples com Arroz e Salada</nome>
+        <descricao>Refeição leve e econômica, ideal para o almoço ou jantar.</descricao>
+        <ingredientes>
+            <ingrediente>Ovos</ingrediente>
+            <ingrediente>Cebola picada</ingrediente>
+            <ingrediente>Tomate em cubos</ingrediente>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Alface</ingrediente>
+            <ingrediente>Tomate</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Óleo</ingrediente>
+        </ingredientes>
+        <preco>16.00</preco>
+        <calorias>450</calorias>
+        <tempo_preparo>15</tempo_preparo>
+    </prato>
+
+    <prato id="p5">
+        <nome>Panqueca de Carne Moída com Arroz</nome>
+        <descricao>Panquecas recheadas com carne moída ao molho de tomate, acompanhadas de arroz branco.</descricao>
+        <ingredientes>
+            <ingrediente>Panqueca</ingrediente>
+            <ingrediente>Carne moída</ingrediente>
+            <ingrediente>Molho de tomate</ingrediente>
+            <ingrediente>Cebola</ingrediente>
+            <ingrediente>Alho</ingrediente>
+            <ingrediente>Óleo</ingrediente>
+            <ingrediente>Sal</ingrediente>
+            <ingrediente>Arroz branco</ingrediente>
+            <ingrediente>Queijo ralado</ingrediente>
+        </ingredientes>
+        <preco moeda="BRL"> &reais; 19.00</preco>
+        <calorias>580</calorias>
+        <tempo_preparo>30</tempo_preparo>
+    </prato>
+</cardapio>
