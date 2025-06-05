@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE cardapio SYSTEM "definicoes.dtd">
 <cardapio>
     <prato id="p1">
         <nome>Arroz, Feijão, Bife e Batata Frita</nome>

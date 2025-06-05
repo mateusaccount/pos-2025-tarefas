@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        xmlns:p="http://cardapio.org"
+        targetNamespace="http://cardapio.org"
+        elementFormDefault="qualified">
+    <element name="cardapio">
+        <complexType>
+            <sequence>
+                <element name="nome"><element/>
+                <element name="nome"><element/>
+                <element name="nome"><element/>
+                <element name="nome"><element/>
+                <element name="nome"><element/>
+                    <simpleType>
+                        <restriction base="string">
+                            <maxLength value="100"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="refeição">
+                    <simpleType>
+                        <restriction base="string">
+                            <enumeration value="café"/>
+                            <enumeration value="almoço"/>
+                            <enumeration value="janta"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="ingredientes">
+                    <complexType>
+                        <sequence>
+                            <element name="ingrediente" type="string" maxOccurs="unbounded"/>
+                        </sequence>
+                    </complexType>
+                </element>
+                <element name="preço">
+                    <simpleType>
+                        <restriction base="decimal">
+                            <fractionDigits value="2"/>
+                        </restriction>
+                    </simpleType>
+                </element>
+                <element name="dataCadastro" type="date"/>
+            </sequence>
+        </complexType>
+    </element>
+</schema>
