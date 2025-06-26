@@ -1,0 +1,100 @@
+{
+    "cardapio": {
+      "itens": [
+        {
+          "id": "p1",
+          "nome_prato": "Arroz, Feijão, Bife e Batata Frita",
+          "descricao": "Clássico do dia a dia brasileiro, simples e saboroso.",
+          "ingredientes": [
+            "Arroz branco",
+            "Feijão carioca",
+            "Bife de alcatra grelhado",
+            "Batata frita",
+            "Alho",
+            "Sal",
+            "Óleo"
+          ],
+          "preco": "R$ 22,00",
+          "calorias": "750 kcal",
+          "tempo_preparo": "25 minutos"
+        },
+        {
+          "id": "p2",
+          "nome_prato": "Macarrão ao Molho de Tomate com Queijo Ralado",
+          "descricao": "Prato rápido e prático, com molho caseiro e finalizado com queijo.",
+          "ingredientes": [
+            "Macarrão espaguete",
+            "Molho de tomate caseiro",
+            "Alho",
+            "Cebola",
+            "Azeite",
+            "Queijo parmesão ralado",
+            "Sal",
+            "Orégano"
+          ],
+          "preco": "R$ 17,00",
+          "calorias": "500 kcal",
+          "tempo_preparo": "20 minutos"
+        },
+        {
+          "id": "p3",
+          "nome_prato": "Frango Ensopado com Legumes e Arroz",
+          "descricao": "Receita caseira e nutritiva, com frango cozido em molho leve e legumes.",
+          "ingredientes": [
+            "Peito de frango em cubos",
+            "Batata",
+            "Cenoura",
+            "Vagem",
+            "Arroz branco",
+            "Tomate",
+            "Alho",
+            "Cebola",
+            "Óleo",
+            "Sal",
+            "Cheiro-verde"
+          ],
+          "preco": "R$ 20,00",
+          "calorias": "600 kcal",
+          "tempo_preparo": "30 minutos"
+        },
+        {
+          "id": "p4",
+          "nome_prato": "Omelete Simples com Arroz e Salada",
+          "descricao": "Refeição leve e econômica, ideal para o almoço ou jantar.",
+          "ingredientes": [
+            "Ovos",
+            "Cebola picada",
+            "Tomate em cubos",
+            "Arroz branco",
+            "Alface",
+            "Tomate",
+            "Sal",
+            "Óleo"
+          ],
+          "preco": "R$ 16,00",
+          "calorias": "450 kcal",
+          "tempo_preparo": "15 minutos"
+        },
+        {
+          "id": "p5",
+          "nome_prato": "Panqueca de Carne Moída com Arroz",
+          "descricao": "Panquecas recheadas com carne moída ao molho de tomate, acompanhadas de arroz branco.",
+          "ingredientes": [
+            "Panqueca",
+            "Carne moída",
+            "Molho de tomate",
+            "Cebola",
+            "Alho",
+            "Óleo",
+            "Sal",
+            "Arroz branco",
+            "Queijo ralado"
+          ],
+          "preco": "R$ 19,00",
+          "calorias": "580 kcal",
+          "tempo_preparo": "30 minutos"
+        }
+      ]
+    }
+  }
+  

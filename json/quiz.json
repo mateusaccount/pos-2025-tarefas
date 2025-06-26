@@ -1,0 +1,125 @@
+{
+    "quiz": {
+      "versao": "1.0",
+      "disciplina": "Matemática",
+      "professor": {
+        "nome": "Maria Silva",
+        "matrícula": "123456"
+      },
+      "turma": "3º Ano B",
+      "data": "2025-05-29",
+      "questões": [
+        {
+          "enunciado": "Qual é o valor de 2 + 2?",
+          "pontuação": "1",
+          "alternativas": [
+            {
+              "texto": "3",
+              "correta": "nao"
+            },
+            {
+              "texto": "4",
+              "correta": "sim"
+            },
+            {
+              "texto": "5",
+              "correta": "nao"
+            },
+            {
+              "texto": "22",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é a capital da França?",
+          "pontuação": "1",
+          "alternativas": [
+            {
+              "texto": "Londres",
+              "correta": "nao"
+            },
+            {
+              "texto": "Paris",
+              "correta": "sim"
+            },
+            {
+              "texto": "Berlim",
+              "correta": "nao"
+            },
+            {
+              "texto": "Roma",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "Qual é o resultado de 5 x 6?",
+          "pontuação": "1",
+          "alternativas": [
+            {
+              "texto": "11",
+              "correta": "nao"
+            },
+            {
+              "texto": "30",
+              "correta": "sim"
+            },
+            {
+              "texto": "56",
+              "correta": "nao"
+            },
+            {
+              "texto": "25",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "Quem escreveu 'Dom Casmurro'?",
+          "pontuação": "2",
+          "alternativas": [
+            {
+              "texto": "Machado de Assis",
+              "correta": "sim"
+            },
+            {
+              "texto": "José de Alencar",
+              "correta": "nao"
+            },
+            {
+              "texto": "Carlos Drummond de Andrade",
+              "correta": "nao"
+            },
+            {
+              "texto": "Clarice Lispector",
+              "correta": "nao"
+            }
+          ]
+        },
+        {
+          "enunciado": "O que é H₂O?",
+          "pontuação": "1",
+          "alternativas": [
+            {
+              "texto": "Ácido sulfúrico",
+              "correta": "nao"
+            },
+            {
+              "texto": "Água",
+              "correta": "sim"
+            },
+            {
+              "texto": "Oxigênio",
+              "correta": "nao"
+            },
+            {
+              "texto": "Gás carbônico",
+              "correta": "nao"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
