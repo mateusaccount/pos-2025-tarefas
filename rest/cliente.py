@@ -17,21 +17,21 @@ try:
         result = api.list
     elif args.action == "create":
         if not args.data:
-            raise ValueError("Você deve fornecer os dados com --data")
+            raise ValueError("Você deve fornecer os dados com data")
         data = json.loads(args.data)
         result = api.create(data)
     elif args.action == "read":
         if not args.id:
-            raise ValueError("Você deve fornecer o ID com --id")
+            raise ValueError("Você deve fornecer o ID com id")
         result = api.read(args.id)
     elif args.action == "update":
         if not args.id or not args.data:
-            raise ValueError("Você deve fornecer o ID com --id e os dados com --data")
+            raise ValueError("Você deve fornecer o ID com --id e os dados com data")
         data = json.loads(args.data)
         result = api.update(args.id, data)
     elif args.action == "delete":
         if not args.id:
-            raise ValueError("Você deve fornecer o ID com --id")
+            raise ValueError("Você deve fornecer o ID com id")
         result = api.delete(args.id)
 
     print(json.dumps(result, indent=2, ensure_ascii=False))
