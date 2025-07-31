@@ -1,13 +1,17 @@
-import zeep
-
-#Define a URL do WSDL
+from zeep import Client
+#URL do WSDL
 wsdl_url = "https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL"
 
-#Inicializa o Zeep
-client = zeep.Client(wsdl=wsdl_url)
+#Cria o cliente
+client = Client(wsdl=wsdl_url)
 
-num = int(input("Digite um número inteiro: "))
-
-
-response = client.service.NumberToWords(num)
-print(f"O número {num} em palavras é: {response}")
+def menu():
+    try:
+        number = int(input("Digite um número inteiro: "))
+        result = client.service.NumberToWords(ubiNum=number)
+        print(f"Número por extenso em inglês: {result}")
+    except ValueError:
+        print("Por favor, digite um número inteiro válido.")
+    except Exception as e:
+        print(f"Ocorreu um erro: {e}")
+menu()
